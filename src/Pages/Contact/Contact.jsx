@@ -62,7 +62,7 @@ function Contact() {
     <>
     <div className="contact">
       <div id="Contact">
-        <h1  className="contactheader">Contact Me</h1>
+        <h2  className="contactheader">Contact Me</h2>
         <div id="mail">
           <img src={mail} className="images" />
           <h2 className="contactheader">dalia_dz88@yahoo.com</h2>

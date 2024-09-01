@@ -121,8 +121,6 @@ button{
 }
 #Image{
  width: 50%;
- 
-
  height: 100%;
  display: flex;
  justify-content: center;
@@ -166,7 +164,7 @@ main{
 @media only screen and (min-width:344px) and (max-width:650px){
   ul{
 padding:0;
-gap:0.7rem;
+gap:0.5rem;
 
   }
   ul li{
@@ -174,7 +172,8 @@ gap:0.7rem;
   }
   #maindiv{
     width: 80%;
-    height:32rem
+    height:32rem;
+   
   }
   #Image,nav img{
     display: none;
@@ -184,11 +183,14 @@ gap:0.7rem;
   }
   h1,h2{
     width: 22rem;
-    font-size: 32px;
+    font-size: 29px;
   }
   #image{
     width:7rem;
     height: 7rem;
+  }
+  button{
+    width:27rem
   }
   
 }

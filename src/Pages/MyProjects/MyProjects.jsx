@@ -10,7 +10,7 @@ import card from "/assets/profilecard.png"
 import social from "/assets/sociallinks.png"
 import apparel from "/assets/apparel.png"
 import perfume from "/assets/perfume.png"
-
+import fylo from "/assets/fylolandingpage.png"
 import "./MyProjects.css";
 
 function MyProjects() {
@@ -160,6 +160,20 @@ function MyProjects() {
           <h4>Perfume</h4></Link>
           <Link to="https://product-tau-six.vercel.app/" target="_blank">
           <img src={perfume} className="image" />
+          </Link>
+          <div id="languages">
+           <label>HTML5</label>
+           <label>CSS3</label>
+           <label>JavaScript</label>
+           <label>React</label>
+         </div>
+        </div>
+        <div className="project">
+          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
+          <h4>Fylo Landing Page</h4>
+          </Link>
+          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
+            <img src={fylo} className="image" />
           </Link>
           <div id="languages">
            <label>HTML5</label>
