@@ -80,6 +80,7 @@ button{
   -o-border-radius: 10px;
   border-style: none;
   font-size: 20px;
+  cursor: pointer;
 }
 #buttons{
   display: flex;

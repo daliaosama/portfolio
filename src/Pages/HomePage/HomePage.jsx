@@ -11,8 +11,8 @@ function HomePage() {
 
   const downloadFile = () => {
     saveAs(
-      "../public/assets/CV-Dalia Osama Elamir Khaled.pdf",
-      "CV-Dalia Osama Elamir Khaled.pdf"
+      "/assets/DaliaOsamaElamirKhaled.pdf",
+      "DaliaOsamaElamirKhaled.pdf"
     );
   };
   return (
