@@ -164,7 +164,7 @@ main{
 @media only screen and (min-width:344px) and (max-width:650px){
   ul{
 padding:0;
-gap:0.5rem;
+gap:0.4rem;
 
   }
   ul li{
@@ -186,9 +186,10 @@ gap:0.5rem;
     font-size: 29px;
   }
   #image{
-    width:7rem;
-    height: 7rem;
-  }
+    width:5rem;
+    height: 5rem;
+    
+}
   button{
     width:27rem
   }

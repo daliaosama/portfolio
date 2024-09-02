@@ -63,11 +63,12 @@ font-weight: bold;
   
 }
 .contactheader{
-  font-size: 25px;
+  font-size: 22px;
 }
 .skill{
   padding-left: 1rem;
   box-sizing: border-box;
+ 
 }
 p{
   font-size: 15px;

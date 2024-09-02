@@ -118,6 +118,9 @@ textarea{
     .submitted{left:4rem}
     .contactheader{font-size:12px;
    }
+   #mail,#phone,#whatsup{
+    gap: 0.3rem;
+   }
 }
 @media only screen and (min-width:712px) and (max-width:801px) {
     .contact{
