@@ -12,6 +12,7 @@ import apparel from "/assets/apparel.png"
 import perfume from "/assets/perfume.png"
 import fylo from "/assets/fylolandingpage.png"
 import "./MyProjects.css";
+import easybank from "/assets/easybanklandingpage.png"
 
 function MyProjects() {
   return (
@@ -141,12 +142,26 @@ function MyProjects() {
            <label>React</label>
          </div>
         </div>
-        <div className="project">
-          <Link to="https://sociallinks-black.vercel.app/" target="_blank">
-           <h4>Social links</h4>
+        <div className="product">
+          <Link to="https://easybanklandingpage-sand.vercel.app/" target="_blank">
+          <h4>Easy Bank LandingPage</h4>
           </Link>
-          <Link to="https://sociallinks-black.vercel.app/"target="_blank">
-          <img src={social} className="image" />
+          <Link to="https://easybanklandingpage-sand.vercel.app/" target="_blank">
+          <img src={easybank} className="image"/>
+          </Link>
+          <div id="languages">
+           <label>HTML5</label>
+           <label>CSS3</label>
+           <label>JavaScript</label>
+           <label>React</label>
+         </div>
+        </div>
+        <div className="project">
+          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
+          <h4>Fylo Landing Page</h4>
+          </Link>
+          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
+            <img src={fylo} className="image" />
           </Link>
           <div id="languages">
            <label>HTML5</label>
@@ -168,12 +183,14 @@ function MyProjects() {
            <label>React</label>
          </div>
         </div>
+        
+        
         <div className="project">
-          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
-          <h4>Fylo Landing Page</h4>
+          <Link to="https://sociallinks-black.vercel.app/" target="_blank">
+           <h4>Social links</h4>
           </Link>
-          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
-            <img src={fylo} className="image" />
+          <Link to="https://sociallinks-black.vercel.app/"target="_blank">
+          <img src={social} className="image" />
           </Link>
           <div id="languages">
            <label>HTML5</label>
