@@ -13,6 +13,7 @@ import perfume from "/assets/perfume.png"
 import fylo from "/assets/fylolandingpage.png"
 import "./MyProjects.css";
 import easybank from "/assets/easybanklandingpage.png"
+import ecommerce from "/assets/ecommerce.png"
 
 function MyProjects() {
   return (
@@ -54,6 +55,20 @@ function MyProjects() {
             </Link>
             <Link to="https://apparel-tau.vercel.app/" target="_blank">
             <img src={apparel} className="image" />
+            </Link>
+            <div id="languages">
+            <label >HTML5</label>
+            <label >CSS3</label>
+            <label >JavaScript</label>
+            <label >React</label>
+          </div>
+          </div>
+          <div className="project">
+            <Link to ="https://e-commerce-website-1pgkxoy7t-dalia-osamas-projects.vercel.app/" target="_blank">
+            <h4>E-commerce Website</h4>
+            </Link>
+            <Link to ="https://e-commerce-website-1pgkxoy7t-dalia-osamas-projects.vercel.app/" target="_blank">
+          <img src={ecommerce} className="image" />
             </Link>
             <div id="languages">
             <label >HTML5</label>
