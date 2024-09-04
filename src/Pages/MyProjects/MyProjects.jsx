@@ -64,10 +64,10 @@ function MyProjects() {
           </div>
           </div>
           <div className="project">
-            <Link to ="https://e-commerce-website-1pgkxoy7t-dalia-osamas-projects.vercel.app/" target="_blank">
+            <Link to ="https://e-commerce-website-two-drab.vercel.app/" target="_blank">
             <h4>E-commerce Website</h4>
             </Link>
-            <Link to ="https://e-commerce-website-1pgkxoy7t-dalia-osamas-projects.vercel.app/" target="_blank">
+            <Link to ="https://e-commerce-website-two-drab.vercel.app/" target="_blank">
           <img src={ecommerce} className="image" />
             </Link>
             <div id="languages">
