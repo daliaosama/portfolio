@@ -3,6 +3,7 @@ import filter from "/assets/filter.png";
 import githubuser from "/assets/githubuser.png"
 import portfolio from "/assets/portfolio.png"
 import {Link} from 'react-router-dom'
+import library from '/assets/library.png'
 import form from "/assets/form.png"
 import timetracker from "/assets/timetracker.png"
 import joblisting from "/assets/joblisting.png"
@@ -20,21 +21,66 @@ function MyProjects() {
     <div id="projects">
       <h1>My Projects</h1>
       <div id="content">
-        
+        <div className="project">
+          <Link to="https://library-ebon-rho.vercel.app/" target="_blank">
+          <h4>Online Book Library </h4>
+          </Link>
+          <Link to="https://library-ebon-rho.vercel.app/" target="_blank">
+          <img src={library} className="image" />
+          </Link>
+          <div id="languages">
+            <label>HTML5</label>
+            <label>tailwindcss</label>
+            <label>React</label>
+          </div>
+        </div>
+        <div className="project">
+            <Link to ="https://e-commerce-website-two-drab.vercel.app/" target="_blank">
+            <h4>E-commerce Website</h4>
+            </Link>
+            <Link to ="https://e-commerce-website-two-drab.vercel.app/" target="_blank">
+          <img src={ecommerce} className="image" />
+            </Link>
+            <div id="languages">
+            <label >HTML5</label>
+            <label >CSS3</label>
+            <label >React</label>
+          </div>
+          </div>
         <div className="project">
         <Link to="https://codepen.io/daliaosama/full/aROOxb" target="_blank">
             <h4>filter project</h4>
           </Link>
         <Link to="https://codepen.io/daliaosama/full/aROOxb" target="_blank">
         <img src={filter} className="image" />
-        </Link>
-          
-          
-         
+        </Link>                
           <div id="languages">
             <label>HTML5</label>
             <label>CSS3</label>
             <label>JavaScript</label>
+          </div>
+        </div>
+        <div className="project">
+        <Link to="https://githubuser-xi.vercel.app/" target="_blank"><h4>Github user search using API</h4></Link>
+            <Link to="https://githubuser-xi.vercel.app/" target="_blank"><img src={githubuser} className="image"/></Link>
+                 
+        <div id="languages">
+            <label>HTML5</label>
+            <label>CSS3</label>
+            <label>React</label>
+          </div>
+        </div>
+        <div className="project">
+          <Link to="https://formreact-beta.vercel.app/" target="_blank">
+          <h4>Form</h4>
+          </Link>
+          <Link to="https://formreact-beta.vercel.app/" target="_blank">
+          <img src={form} className="image"/>
+          </Link>
+          <div id="languages">
+            <label >HTML5</label>
+            <label >CSS3</label>
+            <label >React</label>
           </div>
         </div>
         <div className="project">
@@ -45,7 +91,6 @@ function MyProjects() {
             <div id="languages">
             <label >HTML5</label>
             <label >CSS3</label>
-            <label >JavaScript</label>
             <label >React</label>
           </div>
           </div>
@@ -59,51 +104,12 @@ function MyProjects() {
             <div id="languages">
             <label >HTML5</label>
             <label >CSS3</label>
-            <label >JavaScript</label>
             <label >React</label>
           </div>
           </div>
-          <div className="project">
-            <Link to ="https://e-commerce-website-two-drab.vercel.app/" target="_blank">
-            <h4>E-commerce Website</h4>
-            </Link>
-            <Link to ="https://e-commerce-website-two-drab.vercel.app/" target="_blank">
-          <img src={ecommerce} className="image" />
-            </Link>
-            <div id="languages">
-            <label >HTML5</label>
-            <label >CSS3</label>
-            <label >JavaScript</label>
-            <label >React</label>
-          </div>
-          </div>
-          <div className="project">
-          <Link to="https://formreact-beta.vercel.app/" target="_blank">
-          <h4>Form</h4>
-          </Link>
-          <Link to="https://formreact-beta.vercel.app/" target="_blank">
-          <img src={form} className="image"/>
-          </Link>
-          <div id="languages">
-            <label >HTML5</label>
-            <label >CSS3</label>
-            <label >JavaScript</label>
-            <label >React</label>
-          </div>
-        </div>
-        <div className="project">
-        <Link to="https://githubuser-xi.vercel.app/" target="_blank"><h4>Github user search using API</h4></Link>
-            <Link to="https://githubuser-xi.vercel.app/" target="_blank"><img src={githubuser} className="image"/></Link>
-      
-      
+          
+          
        
-        <div id="languages">
-            <label>HTML5</label>
-            <label>CSS3</label>
-            <label>JavaScript</label>
-            <label>React</label>
-          </div>
-        </div>
         <div className="project">
         <Link to="https://single-page-portfolio-one.vercel.app/" target="_blank">
           <h4>Single Page Portfolio</h4>
@@ -139,7 +145,6 @@ function MyProjects() {
            <div id="languages">
            <label>HTML5</label>
            <label>CSS3</label>
-           <label>JavaScript</label>
            <label>React</label>
          </div>
         </div>
@@ -153,7 +158,6 @@ function MyProjects() {
           <div id="languages">
            <label>HTML5</label>
            <label>CSS3</label>
-           <label>JavaScript</label>
            <label>React</label>
          </div>
         </div>
@@ -167,7 +171,6 @@ function MyProjects() {
           <div id="languages">
            <label>HTML5</label>
            <label>CSS3</label>
-           <label>JavaScript</label>
            <label>React</label>
          </div>
         </div>
@@ -181,7 +184,6 @@ function MyProjects() {
           <div id="languages">
            <label>HTML5</label>
            <label>CSS3</label>
-           <label>JavaScript</label>
            <label>React</label>
          </div>
         </div>
@@ -194,7 +196,6 @@ function MyProjects() {
           <div id="languages">
            <label>HTML5</label>
            <label>CSS3</label>
-           <label>JavaScript</label>
            <label>React</label>
          </div>
         </div>
@@ -210,7 +211,6 @@ function MyProjects() {
           <div id="languages">
            <label>HTML5</label>
            <label>CSS3</label>
-           <label>JavaScript</label>
            <label>React</label>
          </div>
         </div>
