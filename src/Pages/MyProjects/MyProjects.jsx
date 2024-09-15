@@ -12,6 +12,7 @@ import social from "/assets/sociallinks.png"
 import apparel from "/assets/apparel.png"
 import perfume from "/assets/perfume.png"
 import fylo from "/assets/fylolandingpage.png"
+import loopstudio from "/assets/loopstudiolandingpage.png"
 import "./MyProjects.css";
 import easybank from "/assets/easybanklandingpage.png"
 import ecommerce from "/assets/ecommerce.png"
@@ -84,6 +85,45 @@ function MyProjects() {
           </div>
         </div>
         <div className="project">
+          <Link to="https://loopstudiolandingpage.vercel.app/" target="_blank">
+          <h4>Loop Studio LandingPage</h4>
+          </Link>
+          <Link to="https://loopstudiolandingpage.vercel.app/" target="_blank">
+          <img src={loopstudio} className="image"/>
+          </Link>
+          <div id="languages">
+            <label>HTML5</label>
+            <label>CSS3</label>
+            <label>React</label>
+          </div>
+        </div>
+        <div className="project">
+          <Link to="https://easybanklandingpage-sand.vercel.app/" target="_blank">
+          <h4>Easy Bank LandingPage</h4>
+          </Link>
+          <Link to="https://easybanklandingpage-sand.vercel.app/" target="_blank">
+          <img src={easybank} className="image"/>
+          </Link>
+          <div id="languages">
+           <label>HTML5</label>
+           <label>CSS3</label>
+           <label>React</label>
+         </div>
+        </div>
+        <div className="project">
+          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
+          <h4>Fylo Landing Page</h4>
+          </Link>
+          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
+            <img src={fylo} className="image" />
+          </Link>
+          <div id="languages">
+           <label>HTML5</label>
+           <label>CSS3</label>
+           <label>React</label>
+         </div>
+        </div>
+        <div className="project">
             <Link to="https://timetracker-rho-sage.vercel.app/">
             <h4>Time Tracker</h4></Link>
             <Link to="https://timetracker-rho-sage.vercel.app/">
@@ -148,38 +188,13 @@ function MyProjects() {
            <label>React</label>
          </div>
         </div>
+        
         <div className="project">
           <Link to="https://profilecard-nu-ten.vercel.app/" target="_blank">
           <h4>Profile Card</h4>
           </Link>
           <Link to="https://profilecard-nu-ten.vercel.app/" target="_blank">
           <img src={card} className="image"/>
-          </Link>
-          <div id="languages">
-           <label>HTML5</label>
-           <label>CSS3</label>
-           <label>React</label>
-         </div>
-        </div>
-        <div className="product">
-          <Link to="https://easybanklandingpage-sand.vercel.app/" target="_blank">
-          <h4>Easy Bank LandingPage</h4>
-          </Link>
-          <Link to="https://easybanklandingpage-sand.vercel.app/" target="_blank">
-          <img src={easybank} className="image"/>
-          </Link>
-          <div id="languages">
-           <label>HTML5</label>
-           <label>CSS3</label>
-           <label>React</label>
-         </div>
-        </div>
-        <div className="project">
-          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
-          <h4>Fylo Landing Page</h4>
-          </Link>
-          <Link to="https://fylo-three-lime.vercel.app/" target="_blank">
-            <img src={fylo} className="image" />
           </Link>
           <div id="languages">
            <label>HTML5</label>
