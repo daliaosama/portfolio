@@ -16,6 +16,7 @@ import loopstudio from "/assets/loopstudiolandingpage.png"
 import "./MyProjects.css";
 import easybank from "/assets/easybanklandingpage.png"
 import ecommerce from "/assets/ecommerce.png"
+import sneaker from "/assets/sneaker.png"
 
 function MyProjects() {
   return (
@@ -48,6 +49,19 @@ function MyProjects() {
             <label >React</label>
           </div>
           </div>
+          <div className="project">
+          <Link to="https://ecommerce-murex-three.vercel.app/" target="_blank">
+          <h4>Sneaker Company</h4>
+          </Link>
+          <Link to="https://ecommerce-murex-three.vercel.app/" target="_blank">
+          <img src={sneaker} className="image" />
+          </Link>
+          <div id="languages">
+            <label >HTML5</label>
+            <label >CSS3</label>
+            <label >React</label>
+          </div>
+        </div>
         <div className="project">
         <Link to="https://codepen.io/daliaosama/full/aROOxb" target="_blank">
             <h4>filter project</h4>
@@ -61,6 +75,7 @@ function MyProjects() {
             <label>JavaScript</label>
           </div>
         </div>
+       
         <div className="project">
         <Link to="https://githubuser-xi.vercel.app/" target="_blank"><h4>Github user search using API</h4></Link>
             <Link to="https://githubuser-xi.vercel.app/" target="_blank"><img src={githubuser} className="image"/></Link>
