@@ -17,18 +17,32 @@ import "./MyProjects.css";
 import easybank from "/assets/easybanklandingpage.png"
 import ecommerce from "/assets/ecommerce.png"
 import sneaker from "/assets/sneaker.png"
-
+import mystore from "/assets/mystore.png"
 function MyProjects() {
   return (
     <div id="projects">
       <h1>My Projects</h1>
       <div id="content">
+       
         <div className="project">
           <Link to="https://library-ebon-rho.vercel.app/" target="_blank">
           <h4>Online Book Library </h4>
           </Link>
           <Link to="https://library-ebon-rho.vercel.app/" target="_blank">
           <img src={library} className="image" />
+          </Link>
+          <div id="languages">
+            <label>HTML5</label>
+            <label>tailwindcss</label>
+            <label>React</label>
+          </div>
+        </div>
+        <div className="project">
+          <Link to="https://mystore-ten-kappa.vercel.app/" target="_blank">
+          <h4>My Store</h4>
+          </Link>
+          <Link to="https://mystore-ten-kappa.vercel.app/" target="_blank">
+         <img src={mystore} className="image"/>
           </Link>
           <div id="languages">
             <label>HTML5</label>
