@@ -18,6 +18,7 @@ import easybank from "/assets/easybanklandingpage.png"
 import ecommerce from "/assets/ecommerce.png"
 import sneaker from "/assets/sneaker.png"
 import mystore from "/assets/mystore.png"
+import yummy from "/assets/yummyfood.png"
 function MyProjects() {
   return (
     <div id="projects">
@@ -61,6 +62,19 @@ function MyProjects() {
             <label >HTML5</label>
             <label >CSS3</label>
             <label >React</label>
+          </div>
+          </div>
+          <div className="project">
+            <Link to="https://yummyfood-mu.vercel.app/" target="_blank">
+            <h4>Yummy Food Rsestaurant</h4>
+            </Link>
+            <Link to="https://yummyfood-mu.vercel.app/" target="_blank">
+            <img src={yummy} className="image"/>
+            </Link>
+            <div id="languages">
+            <label>HTML5</label>
+            <label>tailwindcss</label>
+            <label>React</label>
           </div>
           </div>
           <div className="project">
