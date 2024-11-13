@@ -2,7 +2,7 @@ import white from "/assets/butterfly.jpg";
 import "./HomePage.css";
 import github from "/assets/github.png";
 import linkedin from "/assets/linkedin.png";
-import dalia from "/assets/dalia.jpg";
+
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { saveAs } from "file-saver";
 function HomePage() {
@@ -54,7 +54,7 @@ function HomePage() {
             <div id="Name">
               <h1 id="name">Dalia Osama Elamir</h1>
               <div id="links">
-                <img src={dalia} id="image" />
+          
                 <Link
                   to="https://github.com/daliaosama?tab=repositories"
                   target="_blank"
