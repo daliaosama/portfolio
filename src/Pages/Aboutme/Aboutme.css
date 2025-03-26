@@ -3,8 +3,7 @@
   flex-direction: column;
   padding:2rem;
   align-self: center;
-  background: linear-gradient(90deg, rgba(244,109,228,1) 12%,
-  rgba(217,111,199,1) 35%, rgba(230,14,156,1) 57%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 16%, rgba(7,181,217,1) 42%, rgba(255,255,255,1) 82%);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -19,9 +18,7 @@
 #about{
   display: flex;
   flex-direction: column;
-  
-
- width:30rem;
+   width:30rem;
  padding: 2rem;
 box-sizing: border-box;
 }

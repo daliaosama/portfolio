@@ -1,4 +1,4 @@
-import white from "/assets/butterfly.jpg";
+import react from "/assets/react.png";
 import "./HomePage.css";
 import github from "/assets/github.png";
 import linkedin from "/assets/linkedin.png";
@@ -80,7 +80,7 @@ function HomePage() {
             </div>
           </div>
           <div id="Image">
-            <img src={white} id="rose" />
+           <img src={react} id="react" />
           </div>
         </div>
       )}
